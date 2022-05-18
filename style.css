@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+}
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    display: block;
+    margin-top: 5px;
+}
+
+.logo-tecmundo {
+    width: 140px;
+    height: auto;
+}
+
+.logo-tecme {
+    margin-top: 10px;
+    width: 95px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.campo-de-pesquisa {
+    width: 600px;
+    border-radius: 3px;
+    padding-left: 48px;
+    box-shadow: 0 0 0 0 rgb(255 255 255 / 0%);
+    font-size: 16px;
+    color: #575757;
+    user-select: none;
+    background-color: #fff;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    line-height: 25px;
+}
+
+.nav-container {
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    border-top: 1px solid #f6f8fa;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+li:hover {
+    color: #1087ff;
+    cursor: pointer;
+}
+
+.item-lista {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #1087ff;
+}
+
+.teste-velocidade {
+    margin-left: auto;
+}
+
+
+
+
