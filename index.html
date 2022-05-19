@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Tecmundo</title>
 </head>
@@ -12,19 +13,53 @@
         <header class="header">
             <div class="header-container">
                 <img class="logo-tecmundo" src="logo-tecmundo.png" alt="logo tecmundo">
-                <input type="search" name="pesquisar" id="campo-de-pesquisa"class="campo-de-pesquisa" placeholder="O que você procura?">
+                <div class="search-container">
+                    <img class="search" src="search.png" alt="search image" onclick="pesquisar()">
+                    <input type="search" name="pesquisar" id="campo-de-pesquisa" class="campo-de-pesquisa" placeholder="O que você procura?">
+                </div>
                 <img class="logo-tecme" src="logo-tecme.png" alt="logo tecMe">
             </div>
                 <nav class="nav-container">
                     <div class="lista-menu">
                         <ul class="nav-menu">
-                            <li href="#" class="item-lista">Notícias</li>
-                            <li href="#" class="item-lista">Últimas Notícias</li>
-                            <li href="#" class="item-lista">Mais lidas</li>
-                            <li href="#" class="item-lista">Tutoriais</ali>
-                            <li href="#" class="item-lista">Colunas</li>
-                            <li href="#" class="item-lista">Comparar</li>
-                            <li href="#" class="item-lista">Cupons de Desconto</li>
+                            <div class="dropdown">
+                                <span class="item-lista">Notícias</span>
+                                <div class="dropdown-content">
+                                    <ul class="dropdown-lista">
+                                        <li><a href="#" class="dropdown-item">Software</a></li>
+                                        <li><a href="#" class="dropdown-item">Segurança</a></li>
+                                        <li><a href="#" class="dropdown-item">Internet</a></li>
+                                        <li><a href="#" class="dropdown-item">Dispositivos Móveis</a></li>
+                                        <li><a href="#" class="dropdown-item">Produto</a></li>
+                                        <li><a href="#" class="dropdown-item">Ciência</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <li class="item-lista">Últimas Notícias</li>
+                            <li class="item-lista">Mais lidas</li>
+                            <li class="item-lista">Tutoriais</li>
+                            <li class="item-lista">Colunas</li>
+                            <div class="dropdown">
+                                <span class="item-lista">Comparar</span>
+                                <div class="dropdown-content">
+                                    <ul class="dropdown-lista">
+                                        <li><a class="dropdown-item">Comparador TecMundo</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <span class="item-lista">Cupons de Desconto</span>
+                                <div class="dropdown-content">
+                                    <ul class="dropdown-lista">
+                                        <li><a href="https://www.americanas.com.br/" class="dropdown-item" target="_blank">Cupom Americanas</a></li>
+                                        <li><a href="https://www.kabum.com.br/" class="dropdown-item" target="_blank">Cupom KaBuM!</a></li>
+                                        <li><a href="https://www.casasbahia.com.br/" class="dropdown-item" target="_blank">Cupom Casas Bahia</a></li>
+                                        <li><a href="https://pt.aliexpress.com/" class="dropdown-item" target="_blank">Cupom AliExpress</a></li>
+                                        <li><a href="https://www.amazon.com.br/" class="dropdown-item" target="_blank">Cupom de desconto Amazon</a></li>
+                                        <li><a href="#" class="dropdown-item">Todos os descontos</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <li class="teste-velocidade"><a class="link-teste-velocidade" href="#">Teste de Velocidade</a></li>
                         </ul>
                     </div>
