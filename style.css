@@ -256,3 +256,33 @@ main {
     font-weight: 700;
     letter-spacing: -0.01em;
 }
+.carousel-pagination {
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    margin-right: 40px;
+
+}
+
+.swiper-pagination {
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 12px;
+}
+
+.swiper-button-next {
+    border: 1px solid;
+    border-radius: 99%;
+    width: 40px;
+    margin-right: 15px ;
+}
+
+.swiper-button-prev {
+    border: 1px solid;
+    border-radius: 99%;
+    width: 40px;
+}
