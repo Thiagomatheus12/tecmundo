@@ -176,7 +176,7 @@ main {
     padding: 16px;
 }
 
-.container-carrosel {
+.container-carrossel {
     display: flex;
     max-width: 1300px;
 }
@@ -184,6 +184,10 @@ main {
 .banner-principal {
     flex: 1 1 60%;
     max-width: 59%;
+}
+
+.banner-principal-carrossel {
+    display: none;
 }
 
 
@@ -275,14 +279,9 @@ main {
 }
 
 .swiper-button-next {
-    border: 1px solid;
-    border-radius: 99%;
     width: 40px;
-    margin-right: 15px ;
 }
 
 .swiper-button-prev {
-    border: 1px solid;
-    border-radius: 99%;
     width: 40px;
 }

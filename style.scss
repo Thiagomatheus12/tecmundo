@@ -1,0 +1,37 @@
+.container {
+    display: block;
+    position: relative;
+    width: auto;
+    height: 100%; 
+}
+
+.container-carrossel {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    .banner-principal {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        background-color: black;
+        height:100%;
+        min-width: 100%;
+        overflow: hidden;
+        transform: translateX(0%);
+        transition: all 0.75s ease-in-out;
+            .img-principal {
+                position:absolute;
+                height: auto;
+                filter: brightness(0.75);
+        }
+    }
+}
+
+
