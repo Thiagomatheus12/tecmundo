@@ -201,7 +201,7 @@ main {
     font-weight: 700;
     letter-spacing: -0.02em;
     line-height: 38px;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 .img-lateral {
@@ -286,6 +286,7 @@ main {
     animation-name: animação;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+    border-bottom: 1px solid rgba(219,225,229,0.5);
 }
 
 .banners {
@@ -303,9 +304,110 @@ main {
 .banners-lateral {
     display: block;
     flex: 1 1 40%;
-    max-width: 40%;}
+    max-width: 40%;
+}
 
 .pl {
     padding-left: 20px;
-    padding-right: 15px;
+}
+
+.sub-container {
+    margin-top: 40px;
+    display: flex;
+}
+
+.top-home-container {
+    display:block;
+    width: 880px;
+}
+.top-home {
+    display: flex;
+    margin-bottom: 16px;
+    width: 847px;
+}
+
+.titulo-top-home {
+    padding-top: 16px;
+}
+
+.buttons-top-home-nav {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.button-top-home {
+    background: none;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    color: #8995a0;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 4px 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.button-top-home:hover {
+    color: #636f7a;
+}
+
+.button-top-home:focus {
+    box-shadow: 0 0 0 3px rgb(52 144 220 / 50%);
+    outline: 0;
+    background-color: #f1f5f8;
+    color: #3e4851;
+}
+
+.conteudo-top-home {
+    width: 880px;
+    margin-right: 24px;
+    box-sizing: border-box;
+}
+
+.container-item-top-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-top-home {
+    display:flex;
+    flex: 50%;
+    margin-bottom: 15px;
+}
+
+.img-article {
+    margin: 0 24px 0 0;
+}
+
+.image-top-home {
+    border-radius: 6px;
+}
+
+.info-img-top-home {
+    width: 220px;
+    height: 90px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.titulo-img-top-home {
+    flex: 1;
+    min-width: 0;
+}
+
+h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+
+.subtitulo-img-top-home {
+    color: #8995a0;
+    font-size: 16px;
 }
