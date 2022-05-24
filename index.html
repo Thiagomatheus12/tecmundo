@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.scss">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animation.css">
     <title>Tecmundo</title>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <div class="header-container">
-                <img class="logo-tecmundo" src="logo-tecmundo.svg" alt="logo tecmundo">
+                <img class="logo-tecmundo" src="images/logo-tecmundo.svg" alt="logo tecmundo">
                 <div class="search-container">
-                    <img class="search" src="search.png" alt="search image" onclick="pesquisar()">
+                    <img class="search" src="images/search.png" alt="search image" onclick="pesquisar()">
                     <input type="search" name="pesquisar" id="campo-de-pesquisa" class="campo-de-pesquisa" placeholder="O que você procura?">
                 </div>
-                <img class="logo-tecme" src="logo-tecme.png" alt="logo tecMe">
+                <img class="logo-tecme" src="images/logo-tecme.png" alt="logo tecMe">
             </div>
                 <nav class="nav-container">
                     <div class="lista-menu">
@@ -61,162 +61,168 @@
                                     </ul>
                                 </div>
                             </div>
-                            <li class="teste-velocidade"><a class="link-teste-velocidade" href="#"> <img src="wifi-simbol.svg" alt="simbol wifi" class="img-wifi"> Teste de Velocidade</a></li>
+                            <li class="teste-velocidade"><a class="link-teste-velocidade" href="#"> <img src="images/wifi-simbol.svg" alt="simbol wifi" class="img-wifi"> Teste de Velocidade</a></li>
                         </ul>
                     </div>
                 </nav>
         </header>
         <main>
             <div class="container-carrossel">
-                <div class="banner-principal">
-                    <a href="https://www.tecmundo.com.br/mercado/238996-bolsonaro-fala-elon-musk-mito-liberdade.htm" title="Ir para: Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink" >
-                        <img class="img-principal" src="https://tm.ibxk.com.br/2022/05/20/20141522158295.jpg?ims=704x288" alt="" width="704" height="288">
-                    </a>
-                    <div class="subtitulo-img-principal">Saiba mais</div>
-                    <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/mercado/238996-bolsonaro-fala-elon-musk-mito-liberdade.htm" title="Ir para: Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink" >Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink</a></h2>
+                <div class="banners">
+                    <div class="banner-principal">
+                        <a href="https://www.tecmundo.com.br/mercado/238996-bolsonaro-fala-elon-musk-mito-liberdade.htm" title="Ir para: Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink" >
+                            <img class="img-principal" src="https://tm.ibxk.com.br/2022/05/20/20141522158295.jpg?ims=704x288" alt="" width="704" height="288">
+                        </a>
+                        <div class="subtitulo-img-principal">Saiba mais</div>
+                        <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/mercado/238996-bolsonaro-fala-elon-musk-mito-liberdade.htm" title="Ir para: Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink" >Bolsonaro e Elon Musk se encontram e falam de Twitter e Starlink</a></h2>
+                    </div>
+                    <div class="banners-lateral">
+                        <article class="item-carousel-template-1">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/software/238994-windows-11-atualizado-novos-papeis-parede-diarios.htm" title="Ir para: Windows 11 é atualizado com novos papéis de parede diários">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/20/20114306392162.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Confira as novidades!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/software/238994-windows-11-atualizado-novos-papeis-parede-diarios.htm" title="Ir para: Windows 11 é atualizado com novos papéis de parede diários"> Windows 11 é atualizado com novos papéis de parede diários</a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-2">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/aliexpress-experience/238790-novas-ofertas-aliexpress-drone-escova-dente-eletrica.htm" title="Ir para: Novas ofertas AliExpress: de drone até escova de dente elétrica">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/15/15211950599024.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Aproveite</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/aliexpress-experience/238790-novas-ofertas-aliexpress-drone-escova-dente-eletrica.htm" title="Ir para: Novas ofertas AliExpress: de drone até escova de dente elétrica"> Novas ofertas AliExpress: de drone até escova de dente elétrica </a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-3">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/produto/238933-snapdragon-8-gen-1-qualcomm-revela-novo-chip-top-linha.htm" title="Ir para: Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/19/19153722275388.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Conheça o processador!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/produto/238933-snapdragon-8-gen-1-qualcomm-revela-novo-chip-top-linha.htm" title="Ir para: Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha"> Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha </a>
+                                </h2>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-                <div class="banner-principal-carrossel">
-                    <a href="https://www.tecmundo.com.br/seguranca/239045-golpistas-deep-fakes-elon-musk-promover-criptomoeda.htm" title="Ir para: Golpistas fazem deep fake de Elon Musk para promover criptomoeda">
-                        <img class="img-principal" src="https://tm.ibxk.com.br/2022/05/23/23091221124048.jpg?ims=704x288" alt="Elon musk" width="704" height="288">
-                    </a>
-                    <div class="subtitulo-img-principal">Cuidado!</div>
-                    <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/seguranca/239045-golpistas-deep-fakes-elon-musk-promover-criptomoeda.htm" title="Ir para: Golpistas fazem deep fake de Elon Musk para promover criptomoeda">Golpistas fazem deep fake de Elon Musk para promover criptomoeda</a></h2>
+                <div class="banners pl">
+                    <div class="banner-principal">
+                        <a href="https://www.tecmundo.com.br/seguranca/239045-golpistas-deep-fakes-elon-musk-promover-criptomoeda.htm" title="Ir para: Golpistas fazem deep fake de Elon Musk para promover criptomoeda">
+                            <img class="img-principal" src="https://tm.ibxk.com.br/2022/05/23/23091221124048.jpg?ims=704x288" alt="Elon musk" width="704" height="288">
+                        </a>
+                        <div class="subtitulo-img-principal">Cuidado!</div>
+                        <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/seguranca/239045-golpistas-deep-fakes-elon-musk-promover-criptomoeda.htm" title="Ir para: Golpistas fazem deep fake de Elon Musk para promover criptomoeda">Golpistas fazem deep fake de Elon Musk para promover criptomoeda</a></h2>
+                    </div>
+                    <div class="banners-lateral">
+                        <article class="item-carousel-template-1">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/produto/239040-amd-revela-processadores-ryzen-7000-5-5-ghz-zen4-rdna2.htm" title="Ir para: AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23084900790028.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Veja as novidades!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/produto/239040-amd-revela-processadores-ryzen-7000-5-5-ghz-zen4-rdna2.htm" title="Ir para: AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2">AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2  </a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-2">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/dispositivos-moveis/238680-the-freestyle-conheca-lancamento-inteligente-samsung.htm" title="As 100 polegadas mais portáteis que você já viu!">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/16/16161645063449.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">The Freestyle</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/dispositivos-moveis/238680-the-freestyle-conheca-lancamento-inteligente-samsung.htm" title="As 100 polegadas mais portáteis que você já viu!">As 100 polegadas mais portáteis que você já viu!</a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-3">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/mercado/239014-beeple-artista-milionario-nfts.htm" title="Beeple: quem é o artista que ficou milionário com NFTs?">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/17/17210238777647.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Conheça!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/mercado/239014-beeple-artista-milionario-nfts.htm" title="Beeple: quem é o artista que ficou milionário com NFTs?"> Beeple: quem é o artista que ficou milionário com NFTs? </a>
+                                </h2>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-                <div class="banner-principal-carrossel">
-                    <a href="https://www.tecmundo.com.br/mercado/239038-crise-economica-novo-mercado-baixa-compara-2008.htm" title="Ir para: Crise econômica: como o novo mercado de baixa se compara a 2008?">
-                        <img src="https://tm.ibxk.com.br/2022/05/23/23075904473001.jpg?ims=704x288" alt="" class="img-principal" width="704" height="288">
-                    </a>
-                    <div class="subtitulo-img-principal">Recessão chegando?</div>
-                    <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/mercado/239038-crise-economica-novo-mercado-baixa-compara-2008.htm" title="Ir para: Crise econômica: como o novo mercado de baixa se compara a 2008?">Crise econômica: como o novo mercado de baixa se compara a 2008?</a></h2>
+                <div class="banners pl">
+                    <div class="banner-principal">
+                        <a href="https://www.tecmundo.com.br/mercado/239038-crise-economica-novo-mercado-baixa-compara-2008.htm" title="Ir para: Crise econômica: como o novo mercado de baixa se compara a 2008?">
+                            <img src="https://tm.ibxk.com.br/2022/05/23/23075904473001.jpg?ims=704x288" alt="" class="img-principal" width="704" height="288">
+                        </a>
+                        <div class="subtitulo-img-principal">Recessão chegando?</div>
+                        <h2 class="titulo-img-principal"><a href="https://www.tecmundo.com.br/mercado/239038-crise-economica-novo-mercado-baixa-compara-2008.htm" title="Ir para: Crise econômica: como o novo mercado de baixa se compara a 2008?">Crise econômica: como o novo mercado de baixa se compara a 2008?</a></h2>
+                    </div>
+                    <div class="banners-lateral">
+                        <article class="item-carousel-template-1">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/redes-sociais/239055-anitta-rastrear-perfis-haters-perseguindo-fas.htm" title="Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23091722359053.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Confira!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/redes-sociais/239055-anitta-rastrear-perfis-haters-perseguindo-fas.htm" title="Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs"> Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs</a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-2">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/software/239031-whatsapp-deixara-funcionar-iphones-antigos-ios-10-11.htm" title="Ir para: WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/21/21150419420002.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Compatibilidade atualizada</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/software/239031-whatsapp-deixara-funcionar-iphones-antigos-ios-10-11.htm" title="Ir para: WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11"> WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11 </a>
+                                </h2>
+                            </div>
+                        </article>
+                        <article class="item-carousel-template-3">
+                            <figure>
+                                <a href="https://www.tecmundo.com.br/voxel/239072-nova-ps-plus-tem-jogos-classicos-catalogo-revelados.htm" title="Ir para: Nova PS Plus tem mais jogos clássicos do catálogo revelados">
+                                    <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23121246632226.jpg?ims=164x118" alt="" width="164" height="118">
+                                </a>
+                            </figure>
+                            <div class="info-carousel-template">
+                                <div class="subtitulo-img-carousel-template">Confira!</div>
+                                <h2 class="titulo-carousel-template">
+                                    <a href="https://www.tecmundo.com.br/voxel/239072-nova-ps-plus-tem-jogos-classicos-catalogo-revelados.htm" title="Ir para: Nova PS Plus tem mais jogos clássicos do catálogo revelados"> Nova PS Plus tem mais jogos clássicos do catálogo revelados </a>
+                                </h2>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-                <div class="banners-lateral">
-                    <article class="item-carousel-template-1">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/software/238994-windows-11-atualizado-novos-papeis-parede-diarios.htm" title="Ir para: Windows 11 é atualizado com novos papéis de parede diários">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/20/20114306392162.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Confira as novidades!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/software/238994-windows-11-atualizado-novos-papeis-parede-diarios.htm" title="Ir para: Windows 11 é atualizado com novos papéis de parede diários"> Windows 11 é atualizado com novos papéis de parede diários</a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-1">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/produto/239040-amd-revela-processadores-ryzen-7000-5-5-ghz-zen4-rdna2.htm" title="Ir para: AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23084900790028.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Veja as novidades!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/produto/239040-amd-revela-processadores-ryzen-7000-5-5-ghz-zen4-rdna2.htm" title="Ir para: AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2">AMD revela processadores Ryzen 7000: até 5,5 GHz, Zen4 e RDNA2  </a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-1">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/redes-sociais/239055-anitta-rastrear-perfis-haters-perseguindo-fas.htm" title="Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23091722359053.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Confira!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/redes-sociais/239055-anitta-rastrear-perfis-haters-perseguindo-fas.htm" title="Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs"> Anitta vai 'rastrear' perfis de haters que estão perseguindo fãs</a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-2">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/aliexpress-experience/238790-novas-ofertas-aliexpress-drone-escova-dente-eletrica.htm" title="Ir para: Novas ofertas AliExpress: de drone até escova de dente elétrica">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/15/15211950599024.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Aproveite</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/aliexpress-experience/238790-novas-ofertas-aliexpress-drone-escova-dente-eletrica.htm" title="Ir para: Novas ofertas AliExpress: de drone até escova de dente elétrica"> Novas ofertas AliExpress: de drone até escova de dente elétrica </a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-2">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/dispositivos-moveis/238680-the-freestyle-conheca-lancamento-inteligente-samsung.htm" title="As 100 polegadas mais portáteis que você já viu!">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/16/16161645063449.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">The Freestyle</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/dispositivos-moveis/238680-the-freestyle-conheca-lancamento-inteligente-samsung.htm" title="As 100 polegadas mais portáteis que você já viu!">As 100 polegadas mais portáteis que você já viu!</a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-2">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/software/239031-whatsapp-deixara-funcionar-iphones-antigos-ios-10-11.htm" title="Ir para: WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/21/21150419420002.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Compatibilidade atualizada</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/software/239031-whatsapp-deixara-funcionar-iphones-antigos-ios-10-11.htm" title="Ir para: WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11"> WhatsApp deixará de funcionar em iPhones antigos com iOS 10 e 11 </a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-3">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/produto/238933-snapdragon-8-gen-1-qualcomm-revela-novo-chip-top-linha.htm" title="Ir para: Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/19/19153722275388.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Conheça o processador!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/produto/238933-snapdragon-8-gen-1-qualcomm-revela-novo-chip-top-linha.htm" title="Ir para: Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha"> Snapdragon 8+ Gen 1: Qualcomm revela novo chip top de linha </a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-3">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/mercado/239014-beeple-artista-milionario-nfts.htm" title="Beeple: quem é o artista que ficou milionário com NFTs?">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/17/17210238777647.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Conheça!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/mercado/239014-beeple-artista-milionario-nfts.htm" title="Beeple: quem é o artista que ficou milionário com NFTs?"> Beeple: quem é o artista que ficou milionário com NFTs? </a>
-                            </h2>
-                        </div>
-                    </article>
-                    <article class="item-carousel-template-3">
-                        <figure>
-                            <a href="https://www.tecmundo.com.br/voxel/239072-nova-ps-plus-tem-jogos-classicos-catalogo-revelados.htm" title="Ir para: Nova PS Plus tem mais jogos clássicos do catálogo revelados">
-                                <img class="img-lateral" src="https://tm.ibxk.com.br/2022/05/23/23121246632226.jpg?ims=164x118" alt="" width="164" height="118">
-                            </a>
-                        </figure>
-                        <div class="info-carousel-template">
-                            <div class="subtitulo-img-carousel-template">Confira!</div>
-                            <h2 class="titulo-carousel-template">
-                                <a href="https://www.tecmundo.com.br/voxel/239072-nova-ps-plus-tem-jogos-classicos-catalogo-revelados.htm" title="Ir para: Nova PS Plus tem mais jogos clássicos do catálogo revelados"> Nova PS Plus tem mais jogos clássicos do catálogo revelados </a>
-                            </h2>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="carousel-pagination">
-                <div class="swiper-pagination">
-                    <button class="swiper-button-next">próxima</button>
-                    <button class="swiper-button-prev">2</button>
                 </div>
             </div>
         </main>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="scrits/script.js"></script>
+<script src="scrits/carrossel.js"></script>
 </html>

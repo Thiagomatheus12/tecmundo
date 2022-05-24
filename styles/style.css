@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Source Sans Pro",sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
+
 body {
     font-size: 16px;
     font-weight: 400;
@@ -17,6 +16,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .header {
     display: block;
     margin-top: 5px;
@@ -42,9 +42,10 @@ body {
     font-size: 16px;
     color: #575757;
     user-select: none;
-    background-color: #fafcfd;;
+    background-color: #fafcfd;
+    ;
     height: 40px;
-    border: 1px solid rgba(219,225,229,0.25);
+    border: 1px solid rgba(219, 225, 229, 0.25);
 }
 
 .campo-de-pesquisa:focus {
@@ -116,7 +117,7 @@ li:hover {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
 }
 
@@ -176,19 +177,8 @@ main {
     padding: 16px;
 }
 
-.container-carrossel {
-    display: flex;
-    max-width: 1300px;
-}
 
-.banner-principal {
-    flex: 1 1 60%;
-    max-width: 59%;
-}
 
-.banner-principal-carrossel {
-    display: none;
-}
 
 
 .img-principal {
@@ -202,6 +192,7 @@ main {
     letter-spacing: -0.02em;
     line-height: 20px;
     padding: 10px;
+    cursor: default;
 }
 
 .titulo-img-principal {
@@ -218,11 +209,7 @@ main {
     max-width: 100%;
 }
 
-.banners-lateral {
-    display: block;
-    flex: 1 1 40%;
-    max-width: 40%;
-}
+
 
 .item-carousel-template-1 {
     display: flex;
@@ -260,6 +247,7 @@ main {
     font-weight: 700;
     letter-spacing: -0.01em;
 }
+
 .carousel-pagination {
     align-items: center;
     display: flex;
@@ -284,4 +272,40 @@ main {
 
 .swiper-button-prev {
     width: 40px;
+}
+
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-carrossel {
+    display: flex;
+    width: 300%;
+    animation-name: animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.banners {
+    display: flex;
+    width: 33.333%;
+    padding-right: 30px;
+}
+
+.banner-principal {
+    flex: 1 1 60%;
+    max-width: 59%;
+    margin-right: 24px;
+}
+
+.banners-lateral {
+    display: block;
+    flex: 1 1 40%;
+    max-width: 40%;}
+
+.pl {
+    padding-left: 20px;
+    padding-right: 15px;
 }
