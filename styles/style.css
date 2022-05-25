@@ -558,7 +558,7 @@ h3 {
 
 @media (max-width: 405px) {
     .img-principal {
-        height: 200px;
+        height: 150px;
     }
     .titulo-img-principal{
         font-size: 14px;
