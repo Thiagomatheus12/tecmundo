@@ -557,6 +557,9 @@ h3 {
 }
 
 @media (max-width: 405px) {
+    .logo-tecmundo{
+        margin-right: 2.5px;
+    }
     .img-principal {
         height: 150px;
     }
