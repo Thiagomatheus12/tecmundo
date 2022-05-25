@@ -523,11 +523,19 @@ h3 {
     }
     .titulo-top-home {
         width: 150px;
+        font-size: 18px;
     }
     .conteudo-top-home {
         width: 100%;
     }
+    .item-top-home {
+        width: 100%;
+    }
+    .info-img-top-home {
+        width: 100%;
+    }
+    
     h3 {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
