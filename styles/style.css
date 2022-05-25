@@ -572,6 +572,9 @@ h3 {
     .banners {
         padding: 0px 16px 0px 0px;
     }
+    .pl {
+        padding-left: 10px;
+    }
     .subtitulo-img-carousel-template{
         font-size: 10px;
     }
