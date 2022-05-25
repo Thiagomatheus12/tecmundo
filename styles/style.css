@@ -471,26 +471,32 @@ h3 {
         width: 100%;
     }
     .banners {
-
+        display: block;
     }
 
     .banner-principal {
         display: flex;
-        align-self: flex-start;
         flex-direction: column;
+        max-width: 100%;
     }
 
     .banners-lateral {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
+        max-width: 100%;
     }
 
     .img-principal {
-        width: 90%;
+       
     }
     .titulo-img-principal {
-        font-size: 20px;
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+
+    .subtitulo-img-principal {
+        padding: 0px;
     }
 
     .titulo-carousel-template{
@@ -499,18 +505,22 @@ h3 {
 
     .item-carousel-template-1 {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-bottom: 9px;
+        margin-bottom: 10px;
     }
     .item-carousel-template-2 {
         display: flex;
-        flex-direction: column;
-        margin-bottom: 9px;
+        margin-bottom: 10px;
     }
     .item-carousel-template-3 {
         display: flex;
-        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .subtitulo-img-carousel-template {
+        font-size: 14px;
+    }
+    .titulo-carousel-template {
+        font-size: 14px;
     }
     .top-home-container {
         display: flex;
@@ -525,6 +535,9 @@ h3 {
         width: 150px;
         font-size: 18px;
     }
+    .button-top-home {
+        font-size: 14px;
+    }
     .conteudo-top-home {
         width: 100%;
     }
@@ -534,8 +547,47 @@ h3 {
     .info-img-top-home {
         width: 100%;
     }
-    
+
+    h3 {
+        font-size: 14px;
+    }
+    .subtitulo-img-top-home {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 405px) {
+    .img-principal {
+        height: 200px;
+    }
+    .titulo-img-principal{
+        font-size: 14px;
+    }
+    .subtitulo-img-principal {
+        font-size: 12px;
+    }
+    .titulo-carousel-template {
+        font-size: 12px;
+    }
+    .banners {
+        padding: 0px 16px 0px 0px;
+    }
+    .subtitulo-img-carousel-template{
+        font-size: 10px;
+    }
+    .titulo-top-home {
+        font-size: 14px;
+    }
+    .button-top-home {
+        font-size: 12px;
+    }
     h3 {
         font-size: 12px;
+    }
+    .subtitulo-img-top-home {
+        font-size: 10px;
+    }
+    .image-top-home {
+        width: 130px;
     }
 }
