@@ -570,10 +570,13 @@ h3 {
         font-size: 12px;
     }
     .banners {
-        padding: 0px 16px 0px 0px;
+        padding-bottom: 0px;
     }
     .pl {
-        padding-left: 10px;
+        padding-left: 20px;
+    }
+    .img-lateral {
+        width: 130px;
     }
     .subtitulo-img-carousel-template{
         font-size: 10px;
