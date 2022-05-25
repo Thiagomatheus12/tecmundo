@@ -572,6 +572,9 @@ h3 {
     .banners {
         padding-bottom: 0px;
     }
+    .banner-principal {
+        margin: 0px;
+    }
     .pl {
         padding-left: 20px;
     }
