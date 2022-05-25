@@ -177,10 +177,6 @@ main {
     padding: 16px;
 }
 
-
-
-
-
 .img-principal {
     border-radius: 8px;
     max-width: 100%;
@@ -278,6 +274,8 @@ main {
 main {
     width: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-carrossel {
@@ -323,7 +321,7 @@ main {
 .top-home {
     display: flex;
     margin-bottom: 16px;
-    width: 847px;
+    width: 100%;
 }
 
 .titulo-top-home {
@@ -361,7 +359,7 @@ main {
 }
 
 .conteudo-top-home {
-    width: 880px;
+    width: 100%;
     margin-right: 24px;
     box-sizing: border-box;
 }
@@ -410,4 +408,126 @@ h3 {
 .subtitulo-img-top-home {
     color: #8995a0;
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+    .container-carrossel {
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-container {
+        width: 100%;
+
+    }
+    
+    .logo-tecmundo {
+        display: flex;
+        justify-content: center;
+        width: 135px;
+    }
+    .campo-de-pesquisa {
+        width: 100%;
+    }
+
+    .campo-de-pesquisa::placeholder {
+        font-size: 12px;
+    }
+
+    .logo-tecme {
+        display: none;
+    }
+
+    .nav-container {
+        display: flex;
+        width: 100%;
+    }
+    
+    .nav-menu {
+        justify-content: unset;
+        width: 950px;
+    }
+    
+    .lista-menu {
+        overflow: scroll;
+    }
+    
+    .item-lista {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .teste {
+        display: flex;
+        width: 100%;
+    }
+    .banners {
+
+    }
+
+    .banner-principal {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+    }
+
+    .banners-lateral {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    .img-principal {
+        width: 90%;
+    }
+    .titulo-img-principal {
+        font-size: 20px;
+    }
+
+    .titulo-carousel-template{
+        font-size: 14px;
+    }
+
+    .item-carousel-template-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 9px;
+    }
+    .item-carousel-template-2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 9px;
+    }
+    .item-carousel-template-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-home-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .top-home {
+        display: flex;
+        width: 100%;
+    }
+    .titulo-top-home {
+        width: 150px;
+    }
+    .conteudo-top-home {
+        width: 100%;
+    }
+    h3 {
+        font-size: 16px;
+    }
 }
