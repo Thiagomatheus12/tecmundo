@@ -581,6 +581,9 @@ h3 {
     .pl {
         padding-left: 20px;
     }
+    .titulo-img-principal {
+        line-height: 20px;
+    }
     .img-lateral {
         width: 130px;
     }
